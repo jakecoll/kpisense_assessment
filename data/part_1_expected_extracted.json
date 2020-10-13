@@ -1,0 +1,104 @@
+{
+  "source": "KPI Dashboard",
+  "categories": [
+    {
+      "name": "Summary Financial Metrics",
+      "fields": [
+        "Subscription Revenue",
+        "Services Revenue",
+        "Total Revenue",
+        "Cost of Goods Sold - COGS",
+        "Gross Margin $",
+        "Gross Margin %",
+        "Sales & Marketing",
+        "Research & Development",
+        "General & Administrative",
+        "Total Operating Expenses",
+        "EBITDA",
+        "Cash Balance at End of Month",
+        "Change in Cash Balance"
+      ],
+      "subsets": [
+        "all"
+      ],
+      "start_date": "2018-01-31T00:00:00.000+00:00",
+      "end_date": "2020-12-31T00:00:00.000+00:00"
+    },
+    {
+      "name": "Customer Metrics",
+      "fields": [
+        "Opening Customers",
+        "# of New Customers",
+        "# of Churned Customers",
+        "Net New Customers",
+        "Total End of Period # of Customers",
+        "Total Customer Churn"
+      ],
+      "subsets": [
+        "all",
+        "Higher Ed",
+        "OPM"
+      ],
+      "start_date": "2018-01-31T00:00:00.000+00:00",
+      "end_date": "2020-12-31T00:00:00.000+00:00"
+    },
+    {
+      "name": "New Bookings",
+      "fields": [
+        "Annual Contract Value (ACV)",
+        "ACV Bookings (YTD - Cumulative)",
+        "Average ACV New Contracts",
+        "Average MRR New Customers",
+        "Average MRR All Customers"
+      ],
+      "subsets": [
+        "all",
+        "Higher Ed",
+        "OPM"
+      ],
+      "start_date": "2018-01-31T00:00:00.000+00:00",
+      "end_date": "2020-12-31T00:00:00.000+00:00"
+    },
+    {
+      "name": "MRR/ARR by Month",
+      "fields": [
+        "Opening",
+        "New",
+        "Lost",
+        "Expansion",
+        "Contraction",
+        "End of Period",
+        "MRR Growth (Month-over-Month)",
+        "Starting ARR",
+        "Ending ARR",
+        "Gross Revenue Churn",
+        "Net Revenue Churn",
+        "Net Expansion Revenue",
+        "YTD Net Expansion Revenue"
+      ],
+      "subsets": [
+        "all",
+        "Higher Ed",
+        "OPM"
+      ],
+      "start_date": "2018-01-31T00:00:00.000+00:00",
+      "end_date": "2020-12-31T00:00:00.000+00:00"
+    },
+    {
+      "name": "Customer Unit Economics",
+      "fields": [
+        "Average Customer LTV (Contribution Margin) - L6M",
+        "CAC (Contribution Margin) - L6M",
+        "LTV to CAC Ratio",
+        "Months to Recover CAC - L6M",
+        "Months to Recover CAC - L6M - NO GM",
+        "Magic Number"
+      ],
+      "subsets": [
+        "all"
+      ],
+      "start_date": "2018-01-31T00:00:00.000+00:00",
+      "end_date": "2020-12-31T00:00:00.000+00:00"
+    }
+  ]
+}
